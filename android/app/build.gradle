@@ -23,7 +23,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace = "com.apokis.app"
+    namespace = "com.enabled.app"
     compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
@@ -37,7 +37,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.apokis.app"
+        applicationId = "com.enabled.app"
         minSdk = 24
         targetSdk = 34
         versionCode = flutterVersionCode.toInteger()
